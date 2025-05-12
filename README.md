@@ -64,6 +64,11 @@
 ```bash
 ./gradlew clean build
 
+##  Запуск через Docker Compose
+
+```bash
+docker-compose up --build
+
 Конфигурация базы данных (PostgreSQL)
 прописана в `application.yaml`:
 

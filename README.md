@@ -64,12 +64,19 @@
 ```bash
 ./gradlew clean build
 
+Конфигурация базы данных (PostgreSQL)
+прописана в `application.yaml`:
+
+```yaml
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: user
+    password: password
 
 Документация Swagger
 
 После запуска сервиса Swagger доступен по адресу:
 [http://localhost:8080/api/v1/swagger-ui.html](http://localhost:8080/api/v1/swagger-ui.html)
 
-###
-##
-#
+

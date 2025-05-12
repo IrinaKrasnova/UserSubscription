@@ -64,12 +64,12 @@
 ```bash
 ./gradlew clean build
 
-**### 3. Запуск через Docker Compose**
+### 3. Запуск через Docker Compose
 
 ```bash
 docker-compose up --build
 
-**### 4. Конфигурация базы данных (PostgreSQL)**
+### 4.  Конфигурация базы данных (PostgreSQL)
 
 Прописана в `application.yaml`:
 
@@ -80,8 +80,8 @@ spring:
     username: user
     password: password
 
-**##№ 5. Документация Swagger**
+### 5.  Документация Swagger
 
 После запуска сервиса Swagger доступен по адресу:
 
-🔗 [http://localhost:8080/api/v1/swagger-ui.html](http://localhost:8080/api/v1/swagger-ui.html)
+(http://localhost:8080/api/v1/swagger-ui.html)

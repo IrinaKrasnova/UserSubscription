@@ -64,7 +64,7 @@
 ```bash
 ./gradlew clean build
 
-##  Запуск через Docker Compose
+Запуск через Docker Compose
 
 ```bash
 docker-compose up --build
